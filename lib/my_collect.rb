@@ -1,6 +1,6 @@
 def my_collect(s)
   if block_given?
-    
+
     step = 0
     limit = s.size
 
