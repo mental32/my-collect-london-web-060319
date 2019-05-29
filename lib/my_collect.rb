@@ -7,7 +7,7 @@ def my_collect(s)
     limit = s.size
 
     while step != limit do
-      yield(s[step])
+      seq << yield(s[step])
       step += 1
     end
   end
