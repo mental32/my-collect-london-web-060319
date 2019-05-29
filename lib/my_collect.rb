@@ -1,4 +1,6 @@
 def my_collect(s)
+  seq = []
+
   if block_given?
 
     step = 0
