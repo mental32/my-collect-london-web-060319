@@ -12,5 +12,5 @@ def my_collect(s)
     end
   end
 
-  s
+  seq
 end
